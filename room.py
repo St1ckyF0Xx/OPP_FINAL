@@ -27,4 +27,4 @@ class DoubleRoom(Room):
         self.kilatas = kilatas
 
     def calculate_price(self, number_of_days):
-        return self.price * 1.2 * number_of_days
+        return self.price * number_of_days
